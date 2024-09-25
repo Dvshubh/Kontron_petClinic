@@ -10,7 +10,7 @@ Feature: viewing pet details.
   Then  PET TYPES has been displayeds
   And   User can add new Pets Details
   
-  @Smoke
+ @Smoke
   Scenario: viewing new pets details
   
   Given User is on the PetClinics home page.

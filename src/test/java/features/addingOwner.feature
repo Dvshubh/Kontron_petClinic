@@ -9,7 +9,7 @@ And  User should be on PetClinic home page.
   
   #//Before->Background->Scenario->After
  
-  @RegressionTest
+@Smoke
   Scenario Outline: adding a new pet owner for the Pet Clinic
     Given User is on the PetClinic home page.
     When  User when launches the URL of the PetClinic.
@@ -23,7 +23,7 @@ And  User should be on PetClinic home page.
     | Jane       | Smith     | 456 Avenue    | CityB | 0987654321   |
   
   
-  @SmokeTest
+@Smoke
   Scenario: Adding one more owner for the PetClinic
   
   Given User is on the PetClinic home page.

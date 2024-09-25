@@ -26,7 +26,6 @@ public class AddingOwner {
 	public void ownerTabDisplayed() {
 		driver.findElement(Owners_tab);
 
-		// driver.findElement(AddNew).click();
 	}
 
 	public void ownerTabClick() {

@@ -1,5 +1,5 @@
 Feature: Speciality Details
-
+@Smoke
   Scenario: Validate the Speciality Details
   
   Given User is on the PetClinics home page.

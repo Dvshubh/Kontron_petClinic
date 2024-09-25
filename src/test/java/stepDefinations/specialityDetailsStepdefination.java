@@ -17,22 +17,22 @@ public class specialityDetailsStepdefination {
 	}
 
 	@Then("Validate the new Spciality Details")
-	public void validate_the_new_spciality_details() {
-		SpecialityDetails specialityDetails = testContextSetup.pageObjectManager.getSpecialityDetails();
-		specialityDetails.specialityTabDisplayed();
+	public void validate_the_new_spciality_details() throws InterruptedException {
 
+		SpecialityDetails sd = testContextSetup.pageObjectManager.getSpecialityDetails();
+		sd.clickSpecialityTab();
+		sd.addNewSepciality();
 	}
 
 	@When("User when launch the URL of the PetClinic.")
 	public void user_when_launch_the_url_of_the_pet_clinic() {
-		SpecialityDetails specialityDetails = testContextSetup.pageObjectManager.getSpecialityDetails();
-		specialityDetails.specialityTabClick();
+		
+		
 	}
 
 	@Then("Specialities Tab has been displayed")
 	public void specialities_tab_has_been_displayed() {
-		SpecialityDetails specialityDetails = testContextSetup.pageObjectManager.getSpecialityDetails();
-		specialityDetails.addNewSepciality();
+		
 	}
 
 }

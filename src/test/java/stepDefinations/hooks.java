@@ -34,11 +34,10 @@ public class hooks {
 	@AfterStep
 
 	public void AddScreenshot(Scenario scenario) throws IOException {
-		WebDriver driver=testContextSetup.testBase.WebDriverManager();
-		if (scenario.isFailed())
-		{
-			File sourcePath= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			byte[]fileContent=FileUtils.readFileToByteArray(sourcePath);
+		WebDriver driver = testContextSetup.testBase.WebDriverManager();
+		if (scenario.isFailed()) {
+			File sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			byte[] fileContent = FileUtils.readFileToByteArray(sourcePath);
 			scenario.attach(fileContent, "image/png", "image");
 		}
 
