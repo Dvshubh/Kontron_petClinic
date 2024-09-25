@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-25T15:42:06 CEST" name="Default suite" finished-at="2024-09-25T15:42:13 CEST" duration-ms="6929">
+  <suite started-at="2024-09-25T17:10:11 CEST" name="Default suite" finished-at="2024-09-25T17:10:16 CEST" duration-ms="5140">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-09-25T15:42:06 CEST" name="Default test" finished-at="2024-09-25T15:42:13 CEST" duration-ms="6929">
+    <test started-at="2024-09-25T17:10:11 CEST" name="Default test" finished-at="2024-09-25T17:10:16 CEST" duration-ms="5140">
       <class name="cucumberOptions.TestNGRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T15:42:06 CEST" name="setUpClass" finished-at="2024-09-25T15:42:07 CEST" duration-ms="990" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T17:10:11 CEST" name="setUpClass" finished-at="2024-09-25T17:10:11 CEST" duration-ms="537" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@42714a7]]>
+                <![CDATA[org.testng.TestRunner@7a389761]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T15:42:07 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-25T15:42:12 CEST" duration-ms="4683" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T17:10:11 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-25T17:10:15 CEST" duration-ms="3644" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T15:42:07 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-25T15:42:11 CEST" duration-ms="4145" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T17:10:11 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-25T17:10:15 CEST" duration-ms="3736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["adding a new pet owner for the Pet Clinic"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Adding a new owner for the pet."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T17:10:11 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-25T17:10:14 CEST" duration-ms="3309" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,23 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T15:42:07 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-25T15:42:12 CEST" duration-ms="4712" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["adding a new pet owner for the Pet Clinic"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Adding a new owner for the pet."]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T15:42:07 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-25T15:42:12 CEST" duration-ms="5384" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T17:10:11 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-25T17:10:15 CEST" duration-ms="4314" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -89,10 +89,10 @@
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6f9ad7cab687e0976ba831d15f6d9d30, clickElement {id=f.DF2812CFE46D720BFD404F0002C44468.d.1DF9B10C32F4069068377710CC83DF18.e.37}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: D:\users\se03393\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:32338}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:32338/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6f9ad7cab687e0976ba831d15f6d9d30)] -> xpath: //button[@class='btn btn-default' and text()=' Add ']]
-Session ID: 6f9ad7cab687e0976ba831d15f6d9d30]]>
+Command: [0ed3fe9efc01a2751d012ef244ae7a5f, clickElement {id=f.8916E88C32788682E98720320B61F640.d.5FFB6715DF6CCF8B275C824B598EBDD8.e.37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: D:\users\se03393\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40756}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:40756/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ed3fe9efc01a2751d012ef244ae7a5f)] -> xpath: //button[@class='btn btn-default' and text()=' Add ']]
+Session ID: 0ed3fe9efc01a2751d012ef244ae7a5f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-ng-c910900098="" class="btn btn-default">...</button> is not clickable at point (273, 644). Other element would receive the click: <div _ngcontent-ng-c87473289="" class="col-12 text-center">...</div>
@@ -100,10 +100,10 @@ Session ID: 6f9ad7cab687e0976ba831d15f6d9d30]]>
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6f9ad7cab687e0976ba831d15f6d9d30, clickElement {id=f.DF2812CFE46D720BFD404F0002C44468.d.1DF9B10C32F4069068377710CC83DF18.e.37}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: D:\users\se03393\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:32338}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:32338/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (6f9ad7cab687e0976ba831d15f6d9d30)] -> xpath: //button[@class='btn btn-default' and text()=' Add ']]
-Session ID: 6f9ad7cab687e0976ba831d15f6d9d30
+Command: [0ed3fe9efc01a2751d012ef244ae7a5f, clickElement {id=f.8916E88C32788682E98720320B61F640.d.5FFB6715DF6CCF8B275C824B598EBDD8.e.37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: D:\users\se03393\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40756}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:40756/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ed3fe9efc01a2751d012ef244ae7a5f)] -> xpath: //button[@class='btn btn-default' and text()=' Add ']]
+Session ID: 0ed3fe9efc01a2751d012ef244ae7a5f
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -127,7 +127,7 @@ at ✽.User can add new Pets Details(file:///D:/Eclipse/petClinic_Validation/src
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T15:42:12 CEST" name="tearDownClass" finished-at="2024-09-25T15:42:13 CEST" duration-ms="505" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestNGRunner@3f4faf53]" started-at="2024-09-25T17:10:15 CEST" name="tearDownClass" finished-at="2024-09-25T17:10:16 CEST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
