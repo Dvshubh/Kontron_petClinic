@@ -9,6 +9,7 @@ public class PageObjectManager {
 	public ViewingPetDetails viewingPetDe;
 	public GenericUtils genericUtills;
 	public WebDriver driver;
+	public SpecialityDetails specialityDetails;
 
 	public PageObjectManager(WebDriver driver) {
 		this.driver = driver;
@@ -24,10 +25,14 @@ public class PageObjectManager {
 		viewingPetDe = new ViewingPetDetails(driver);
 		return viewingPetDe;
 	}
-	
-	public GenericUtils GenericValidation()
-	{
+
+	public GenericUtils GenericValidation() {
 		System.out.println("");
 		return genericUtills;
+	}
+
+	public SpecialityDetails getSpecialityDetails() {
+		specialityDetails = new SpecialityDetails(driver);
+		return specialityDetails;
 	}
 }
