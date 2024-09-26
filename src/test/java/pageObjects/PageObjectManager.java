@@ -10,6 +10,7 @@ public class PageObjectManager {
 	public GenericUtils genericUtills;
 	public WebDriver driver;
 	public SpecialityDetails specialityDetails;
+	public veterianDetails VeterianDetails;
 
 	public PageObjectManager(WebDriver driver) {
 		this.driver = driver;
@@ -34,5 +35,10 @@ public class PageObjectManager {
 	public SpecialityDetails getSpecialityDetails() {
 		specialityDetails = new SpecialityDetails(driver);
 		return specialityDetails;
+	}
+
+	public veterianDetails AddVeterianDetails() {
+		VeterianDetails = new veterianDetails(driver);
+		return VeterianDetails;
 	}
 }
