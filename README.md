@@ -74,9 +74,10 @@ Right-click on the class and select Run to execute the tests.
 **6. View the Reports**
 After the tests are completed, you can find the generated reports in the following directories:
 
-Extent Reports: Located in target/ExtentReport.
+**Extent Reports:** Located in target/ExtentReport.
 TestNG Reports: Located in target/surefire-reports and test-output.
 Open the index.html file in a web browser to view the report.
+**html and Json Report:** Located in target/_htmlReport and jsonReport
 
 **Additional Notes**
 Ensure that your Chrome browser is up to date, as the ChromeDriver version must match the browser version.
