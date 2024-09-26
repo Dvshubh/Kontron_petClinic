@@ -31,6 +31,9 @@ The project is structured as follows:
 │       └───resources
 │
 └───test-output
+
+
+
 **Running Cucumber Automation Project**
 Follow these steps to run the Cucumber tests:
 
