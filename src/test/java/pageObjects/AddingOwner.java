@@ -17,7 +17,7 @@ public class AddingOwner {
 	By Address = By.id("address");
 	By City = By.id("city");
 	By ContactNumber = By.id("telephone");
-	By AddOwner = By.xpath("//*[@type='submit']"); // Button to add new owner
+	By AddOwner = By.xpath("//*[@type='submit']"); 
 
 	public AddingOwner(WebDriver driver) {
 		this.driver = driver;

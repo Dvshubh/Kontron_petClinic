@@ -48,15 +48,11 @@ public class veterianDetails {
 			WebElement type = driver.findElement(Type);
 			Select dropdown = new Select(type);
 			dropdown.selectByVisibleText("dentistry");
-			//List<WebElement> allOptions = dropdown.getOptions();
-			//for (WebElement option : allOptions) {
-			//	System.out.println(option.getText());
-			dropdown.selectByVisibleText("dentistry");
+
 			driver.findElement(SaveVet).click();
-				//;
-			//}
+
 		} catch (StaleElementReferenceException e) {
-			System.out.println("vALIDATION IN CATCH");
+			System.out.println("VALIDATION IN CATCH");
 
 		}
 
