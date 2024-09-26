@@ -1,7 +1,7 @@
 
 
 Feature: Adding a  Veterinarians for the pet.
-
+@Smoke
     Scenario: Adding a  Veterinarians for the pet
     Given User is on the PetClinic home page.
     When  User when launches the URL of the PetClinic.
