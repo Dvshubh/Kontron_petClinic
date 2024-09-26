@@ -24,7 +24,7 @@ And  User should be on PetClinic home page.
   
   
 @Smoke
-  Scenario: Adding one more owner for the PetClinic
+  Scenario:4. Adding one more owner for the PetClinic
   
   Given User is on the PetClinic home page.
   When  User when launch the URL of the PetClinic.

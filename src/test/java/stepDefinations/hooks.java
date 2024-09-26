@@ -23,7 +23,7 @@ public class hooks {
 
 	@Before
 	public void addingOwner() {
-		System.out.println("Adding the Owener of the PetClinic@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+		System.out.println(" ");
 	}
 
 	@After

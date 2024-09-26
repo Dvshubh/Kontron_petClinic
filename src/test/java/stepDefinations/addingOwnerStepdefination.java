@@ -24,7 +24,6 @@ public class addingOwnerStepdefination {
 		this.testContextSetup = testContextSetup;
 	}
 
-	// Background step definition
 	@Given("User should be available on the PetClinic Page")
 	public void user_should_be_available_on_the_pet_clinic_page() {
 		System.out.println("User is on the PetClinic Page");
