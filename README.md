@@ -1,39 +1,4 @@
-Project Structure of the Project.
-│   .classpath
-│   .gitignore
-│   .project
-│   pom.xml
-│
-├───.settings
-│       org.eclipse.core.resources.prefs
-│       org.eclipse.jdt.core.prefs
-│       org.eclipse.m2e.core.prefs
-│
-├───src
-│   ├───main
-│   │   └───java
-│   │       └───petClinic
-│   │           └───petClinic_Validation
-│   │                   App.java
-│   │
-│   └───test
-│       ├───java
-│       │   ├───cucumberOptions          # Cucumber test runners
-│       │   ├───features                 # Feature files for scenarios
-│       │   ├───pageObjects              # Page Object Model classes
-│       │   ├───stepDefinations          # Step definitions for scenarios
-│       │   └───utils                    # Utility classes
-│       └───resources                    # Resources needed for tests
-│
-├───target                               # Maven output folder
-│   ├───classes                          # Compiled class files
-│   ├───ExtentReport                    # Extent reports generated
-│   ├───surefire-reports                # TestNG reports from Surefire plugin
-│   └───test-classes                    # Compiled test classes
-│
-└───test-output                          # Test output files and reports
-
-Prerequisites
+**Prerequisites**
 Before running the tests, ensure you have the following installed:
 
 Java Development Kit (JDK): Version 1.8 or higher
